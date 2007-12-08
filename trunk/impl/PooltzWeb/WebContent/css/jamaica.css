@@ -1,0 +1,21 @@
+#menu a {
+	color: black;
+}
+#menu .menu1 {
+	background-color: rgb(218,37,29);
+}
+#menu .menu2 {
+	background-color: rgb(232,122,23);
+}
+#menu .menu3 {
+	background-color: rgb(248,195,0);
+}
+#menu .menu4 {
+	background-color: rgb(127,175,68);
+}
+#menu .menu5 {
+	background-color: rgb(0,146,63);
+}
+#logo {
+	background-image: url('../img/logo-jamaica.gif');
+}

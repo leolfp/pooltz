@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<f:loadBundle basename="resources" var="bundle" />
+<head>
+	<title>Pooltz - <ui:insert name="pageTitle">your web, your way</ui:insert></title>
+	<link rel="stylesheet" type="text/css" href="../css/pooltzCommonStyle.css" />
+	<link rel="stylesheet" type="text/css" href="../css/${bundle['skin']}.css" />
+</head>
+<body>
+<div id="logo"></div>
+<div id="menu"><ui:insert name="menu"><ui:include src="menu.xhtml" /></ui:insert></div>
+<div id="content"><ui:insert name="content">[Main content goes here]</ui:insert></div>
+<div id="footer"><ui:insert name="footer">${bundle['template.footer.message']}</ui:insert></div>
+</body>
+</html>
