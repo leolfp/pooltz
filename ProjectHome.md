@@ -1,0 +1,1 @@
+A platform for community based content collaboration over the web.
